@@ -92,7 +92,7 @@ async function main() {
             { name: "ProjectRegistry", path: "ProjectRegistry.sol/ProjectRegistry.json" },
             { name: "CarbonCreditToken", path: "CarbonCreditToken.sol/CarbonCreditToken.json" },
             { name: "VerificationWorkflow", path: "VerificationWorkflow.sol/VerificationWorkflow.json" },
-            { name: "CarbonMarketplace", path: "../marketplace/CarbonMarketplace.sol/CarbonMarketplace.json" },
+            { name: "CarbonMarketplace", path: "CarbonMarketplace.sol/CarbonMarketplace.json" },
         ];
 
         for (const file of abiFiles) {

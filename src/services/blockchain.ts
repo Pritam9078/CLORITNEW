@@ -1,8 +1,8 @@
 import { ethers } from 'ethers';
-import addresses from './addresses.json';
-import ProjectRegistryABI from './ProjectRegistry.json';
-import CarbonCreditTokenABI from './CarbonCreditToken.json';
-import VerificationWorkflowABI from './VerificationWorkflow.json';
+import addresses from '../contracts/addresses.json';
+import ProjectRegistryABI from '../contracts/ProjectRegistry.json';
+import CarbonCreditTokenABI from '../contracts/CarbonCreditToken.json';
+import VerificationWorkflowABI from '../contracts/VerificationWorkflow.json';
 
 // Contract addresses
 export const CONTRACT_ADDRESSES = addresses;
